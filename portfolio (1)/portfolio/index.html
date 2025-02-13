@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/bg3.jpg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .lazyload {
+            background-color: #28232b;
+            background: linear-gradient(110deg, rgba(255, 255, 255, 0) 40%, #2e2931 50%, rgba(255, 255, 255, 0) 60%) #28232b;
+            background-size: 200% 100%;
+            background-position-x: 180%;
+            animation: 1s loadingg ease-in-out infinite;
+        }
+
+        @keyframes loadingg {
+            to {
+                background-position-x: -20%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navigasiBar">
+        <div class="logoNav">
+            <a href="/">
+                <img class="gambarLogo" alt="zzz-logo" src="/images/bg3.jpg">
+            </a>
+        </div>
+        <div class="tengahNav">
+            <nav class="tengahNav__menu">
+                <a class="menuItem" href="#content1"><b>About ME</b></a>
+                <a class="menuItem" href="#content2">Project</a>
+                <a class="menuItem" href="#content3">Contacts</a>
+            </nav>
+        </div>
+    </header>
+    <div class="areaBannerAwal" id="content1">
+        <div class="aBA__bg lazyloaded" data-bg="/images/bg.jpg"
+            style="background-image: url(&quot;/images/bg.jpg&quot;);">"></div>
+        <div class="aBA__container">
+            <div class="aBA__konten">
+                <div class="aBA__textArea">
+                    <div>
+                        <h1>About Me</h1>
+                        <p>&emsp;&emsp;&emsp;Hello My name is Noraset Promsen.You can call me N.
+                            I create this web to tell you who read something about me.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bungkusKonten">
+		<div class="arealistNovel" id="content2">
+			<p class="judul"><h1>My Project</h1></p>
+			<p class="subjudul">Let’s see what I do!</p>
+			<div class="areaCarouselList">
+				<div class="bayanganCarousel kiri ilang" id="panahTC__kiri"></div>
+				<div class="bayanganCarousel kanan" id="panahTC__kanan"></div>
+				<div class="carouselScroll" id="topchoice">
+					<a class="nopelpel">
+						<div class="areaKotakTopNovel">
+							<div class="akTN__kotakGambar">
+								<div
+									style="background-image: url('/images/project.png')">
+								</div>
+							</div>
+							<p class="akTN__genre"></p>
+							<p class="akTN__judul topchoice">Make Donut and room model</p>
+							<div class="akTN__NovelStatus">
+								<div class="akTN__NSText completed">completed</div>
+							</div>
+							<div class="akTN__Review">
+								<div class="akTN__stats">
+									<span>1.2 Days</span>
+									<span>Render</span>
+								</div>
+                                <div class="akTN__stats">
+									<span>30s.</span>
+									<span>Video Time</span>
+								</div>
+								<div class="akTN__stats kedua">
+									<span>60</span>
+									<span>Frame/ Second</span>
+								</div>
+							</div>
+						</div>
+					</a>
+                    <a class="nopelpel">
+						<div class="areaKotakTopNovel">
+							<div class="akTN__kotakGambar">
+								<div
+									style="background-image: url('/images/bg2.gif')">
+								</div>
+							</div>
+							<p class="akTN__genre"></p>
+							<p class="akTN__judul topchoice">Make Pixel ART</p>
+							<div class="akTN__NovelStatus">
+								<div class="akTN__NSText ongoing">ongoing</div>
+							</div>
+							<div class="akTN__Review">
+								<div class="akTN__stats">
+									<span>>=1Week</span>
+									<span>Time Use</span>
+								</div>
+								<div class="akTN__stats kedua">
+									<span>24</span>
+									<span>fps</span>
+								</div>
+							</div>
+						</div>
+					</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="haGaris"></div>
+	<section class="hA__AreakurangNopel">
+		<div class="hA__kurangNopel" id="content3">
+			<p class="kN_headerSmall">
+				<svg width="16" height="16" fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
+					<path
+						d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+				</svg>
+				<span>Contact Me</span>
+			</p>
+			<h2 class="kN_headerTitle">
+				I <b class="teks-spesialhA">Answer every call</b> before 5 pm.
+			</h2>
+			<p class="kN__headerDeskripsi">
+				<p>Tel:000-000-0000</p>
+                <p>Email:ハクチコ@gmail.com</p>
+                <p>Discord:ハクチコ</p>
+			</p>
+		</div>
+	</section>
+	<footer class="puterArea">
+		<div class="kotakPuter">
+			<div class="footerFlex">
+				<div class="fF__areaLogo">
+					<a href="/" alt="riernovel">
+						<img class="gambarLogo" alt="portforio" src="/images/bg3.jpg">
+					</a>
+					<p class="akTN__teksKecil">All other trademarks belong to their respective owners.</p>
+					<p class="akTN__teksKecil">This site is protected by reCAPTCHA and the Google <a
+							href="https://policies.google.com/privacy" target="_blank"><u>Privacy Policy</u></a> and <a
+							href="https://policies.google.com/terms" target="_blank"><u>Terms of Service</u></a> apply.
+					</p>
+				</div>
+				<div class="fF__areaSecond flex-column">
+					<a class="akTN__teksKecil" style="font-size:14px;" href="/privacy">
+						<small>Privacy Policy</small>
+					</a>
+					<a class="akTN__teksKecil" style="font-size:14px;" href="/dashboard/faq">
+						<small>FAQ</small>
+					</a>
+				</div>
+				<div class="fF__areaThird">
+					<a href="https://discord.gg/9jZRQ65gqZ" target="_blank"><i class='bx bxl-discord-alt'
+							title="Novelplex's discord server"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+    </div>
+
+</body>

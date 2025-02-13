@@ -4,4 +4,4 @@
 </p>
 
 ## How to use!!!
-Download [index.html](https://github.com/Kurahari/Lagowy.com/blob/main/index.html) and run it!
+Download [Lagowy.com](https://github.com/Kurahari/Lagowy.com/archive/refs/heads/main.zip) and run index.html with live server.
